@@ -1,0 +1,69 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'grunt-contrib-uglify',
+1 verbose cli   '--save-dev' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 warn package.json test@1.0.0 No description
+6 warn package.json test@1.0.0 No repository field.
+7 warn package.json test@1.0.0 No README data
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'grunt-contrib-uglify', null ]
+10 verbose cache add name=undefined spec="grunt-contrib-uglify" args=["grunt-contrib-uglify",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'grunt-contrib-uglify',
+11 verbose parsed url   path: 'grunt-contrib-uglify',
+11 verbose parsed url   href: 'grunt-contrib-uglify' }
+12 silly lockFile 9dabf0fb-grunt-contrib-uglify grunt-contrib-uglify
+13 verbose lock grunt-contrib-uglify C:\Users\sd528\AppData\Roaming\npm-cache\9dabf0fb-grunt-contrib-uglify.lock
+14 silly lockFile 9dabf0fb-grunt-contrib-uglify grunt-contrib-uglify
+15 silly lockFile 9dabf0fb-grunt-contrib-uglify grunt-contrib-uglify
+16 verbose addNamed [ 'grunt-contrib-uglify', '' ]
+17 verbose addNamed [ null, '*' ]
+18 silly lockFile 1f4692e4-grunt-contrib-uglify grunt-contrib-uglify@
+19 verbose lock grunt-contrib-uglify@ C:\Users\sd528\AppData\Roaming\npm-cache\1f4692e4-grunt-contrib-uglify.lock
+20 silly addNameRange { name: 'grunt-contrib-uglify', range: '*', hasData: false }
+21 verbose request where is /grunt-contrib-uglify
+22 verbose request registry https://registry.npmjs.org/
+23 verbose request id f773229c33435f44
+24 verbose url raw /grunt-contrib-uglify
+25 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-uglify' ]
+26 verbose url resolved https://registry.npmjs.org/grunt-contrib-uglify
+27 verbose request where is https://registry.npmjs.org/grunt-contrib-uglify
+28 info trying registry request attempt 1 at 09:35:26
+29 http GET https://registry.npmjs.org/grunt-contrib-uglify
+30 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+31 info trying registry request attempt 2 at 09:35:36
+32 http GET https://registry.npmjs.org/grunt-contrib-uglify
+33 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+34 info trying registry request attempt 3 at 09:36:36
+35 http GET https://registry.npmjs.org/grunt-contrib-uglify
+36 silly lockFile 1f4692e4-grunt-contrib-uglify grunt-contrib-uglify@
+37 silly lockFile 1f4692e4-grunt-contrib-uglify grunt-contrib-uglify@
+38 error network getaddrinfo ENOTFOUND
+38 error network This is most likely not a problem with npm itself
+38 error network and is related to network connectivity.
+38 error network In most cases you are behind a proxy or have bad network settings.
+38 error network
+38 error network If you are behind a proxy, please make sure that the
+38 error network 'proxy' config is set properly.  See: 'npm help config'
+39 error System Windows_NT 6.2.9200
+40 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "grunt-contrib-uglify" "--save-dev"
+41 error cwd C:\Users\sd528\Desktop\grunt
+42 error node -v v0.10.35
+43 error npm -v 1.4.28
+44 error syscall getaddrinfo
+45 error code ENOTFOUND
+46 error errno ENOTFOUND
+47 verbose exit [ 1, true ]
