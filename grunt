@@ -1,0 +1,13 @@
+module.exports = function(grunt){
+	grunt.registerTask('task1',function(){
+		console.log('aaaa');
+	})
+	grunt.registerTask('task2',function(){
+		console.log('bbbb');
+	})
+	grunt.registerTask('default',['task1','task2']);
+}
+
+	grunt.loadNpmTasks('grunt-contrib-copy');
+
+	
